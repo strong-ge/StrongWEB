@@ -1,0 +1,109 @@
+.post{
+    padding: 35px;
+    background: #ffffff;
+    margin-bottom: 35px;
+    position: relative;
+    overflow: hidden;
+    box-shadow:2px 2px 7px #8BC8CC;
+}
+
+.post .post-head{
+    text-align: center;
+}
+
+.post .post-head .post-title{
+    margin: 0;
+    font-size: 2.5em;
+    line-height:1em;
+}
+
+.post .post-head .post-title a{
+    color: #303030;
+}
+
+.post .post-head .post-meta{
+    color: #959595;
+    margin: 14px 0 0px;
+}
+
+.post-content{
+    font:400 18px/1.62 "Glyphicons Halflings";
+    color: #444443;
+}
+
+.post-content p{
+    margin-top: 0;
+    margin-bottom: 1.46em;
+}
+
+.btn-default{
+    border: 1px solid #e67e22;
+    background: #e67e22;
+    color: #ffffff;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition:all 0.2s ease-in-out;
+}
+
+.btn{
+    padding: 7px 14px;
+    border-radius: 2px;
+}
+
+.post .post-footer{
+    margin-top: 30px;
+    border-top: 1px solid #ebebeb;
+    padding: 21px 0 0 ;
+}
+
+.post .post-footer .tag-list{
+    color: #959595;
+    line-height: 28px;
+}
+
+.sidebar .widget{
+    background: #ffffff;
+    padding: 21px 30px;
+}
+
+.widget{
+    margin-bottom: 35px;
+    border-style: solid;
+    border-color:#ebebeb;
+}
+
+.widget .title{
+    font-weight: 900;
+}
+
+.xinqing{
+    border-bottom: dashed 1px #000000;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.xinqing .pub-time{
+    text-align: right;
+}
+
+.artical-archive{
+    margin-bottom: 10px ;
+    margin-top: 10px ;
+}
+.artical-archive li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.comment-list{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: dashed 1px #000000;
+}
+.foot-info{
+    border-top: solid;
+    border-left: solid;
+    border-right: solid;
+    border-style: outset;
+    border-bottom: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
